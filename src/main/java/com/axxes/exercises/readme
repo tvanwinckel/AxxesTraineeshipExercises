@@ -45,7 +45,17 @@ Exercise 4:
 
 Passing variables to the endpoint:
 
-    - Create a new Controller.
+    - Create a new controller.
     - Add a POST method accepting an optional String request parameter.
     - Add a POST method accepting a required integer request parameter.
     - Add a GET method accepting an integer path variable.
+
+
+
+Exercise 5:
+
+Consumable & producible media types:
+
+    - Create a new controller.
+    - Add a method consuming a 'simple object' as a JSON.
+    - Add a method producing a 'simple object'.
