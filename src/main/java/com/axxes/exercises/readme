@@ -95,3 +95,13 @@ Controller Advice:
     - Remove the exception handlers for the ExceptionController and check if they are still handled as before.
     - VariableController can cause exceptions to occur when giving a wrong request parameter
       check if these are caught now as well.
+
+
+Exercise 9:
+
+Creating a simple form:
+
+    - Given is a Person object.
+    - Create a view allowing you to submit a persons details (form).
+    - Create a view allowing you to display a persons details.
+    - Create a controller able to process a new person submission.
