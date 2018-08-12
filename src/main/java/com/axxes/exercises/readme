@@ -61,6 +61,7 @@ Consumable & producible media types:
     - Add a method producing a 'simple object'.
 
 
+
 Exercise 6:
 
 Model all the things:
@@ -69,3 +70,17 @@ Model all the things:
     - Add a method returning a plain model object.
     - Add a method returning a ModelMap object.
     - Add a method returning a ModelAndView object.
+
+
+
+Exercise 7:
+
+Handling exceptions:
+
+    - Given an exception controller with a few methods throwing an exception.
+    - Handle all types of exception with a general exception handler.
+    - Handle a specific exception (IllegalArgumentException) with a dedicated handler.
+
+Extra:
+    - Inform the caller an error occurred by sending an http status 500.
+    - (Tip) ResponseEntity.
