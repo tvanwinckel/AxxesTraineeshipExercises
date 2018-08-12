@@ -9,3 +9,16 @@ This can be done both by Spring Boot properties or providing a servlet configura
 Tips:
     - ConfigurableServletWebServerFactory
     - server.servlet.path
+
+
+Exercise 2:
+
+Catch requests going to and from the controller.
+
+    - Log a message containing the request path going to the controller.
+    - Log a message containing the controller Models attribute 'message'.
+    - Log a message when everything is finished.
+
+Tips:
+    - Create an interceptor class.
+    - Do not forget to configure this interceptor.
