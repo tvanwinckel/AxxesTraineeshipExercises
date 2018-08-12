@@ -84,3 +84,14 @@ Handling exceptions:
 Extra:
     - Inform the caller an error occurred by sending an http status 500.
     - (Tip) ResponseEntity.
+
+
+
+Exercise 8:
+
+Controller Advice:
+
+    - Create a controller advice responsible for catching and handling exceptions.
+    - Remove the exception handlers for the ExceptionController and check if they are still handled as before.
+    - VariableController can cause exceptions to occur when giving a wrong request parameter
+      check if these are caught now as well.
