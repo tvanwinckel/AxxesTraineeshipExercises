@@ -11,6 +11,7 @@ Tips:
     - server.servlet.path
 
 
+
 Exercise 2:
 
 Catch requests going to and from the controller.
@@ -22,3 +23,18 @@ Catch requests going to and from the controller.
 Tips:
     - Create an interceptor class.
     - Do not forget to configure this interceptor.
+
+
+
+Exercise 3:
+
+Playing around with request mappings:
+
+    - Create a new controller.
+    - Add different request mappings to the controller.
+        - What happens if two mappings of the same type direct to the same endpoint?
+        - What happens if two mappings of a different type direct to the same endpoint?
+
+Extra:
+    - Let your first controller point to the '/axxes' endpoint.
+    - Add an extra controller with a few mappings point to the '/axxes/extra' endpoint.
