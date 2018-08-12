@@ -59,3 +59,13 @@ Consumable & producible media types:
     - Create a new controller.
     - Add a method consuming a 'simple object' as a JSON.
     - Add a method producing a 'simple object'.
+
+
+Exercise 6:
+
+Model all the things:
+
+    - Given a model controller
+    - Add a method returning a plain model object.
+    - Add a method returning a ModelMap object.
+    - Add a method returning a ModelAndView object.
