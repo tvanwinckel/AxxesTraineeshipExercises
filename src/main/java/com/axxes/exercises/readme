@@ -38,3 +38,14 @@ Playing around with request mappings:
 Extra:
     - Let your first controller point to the '/axxes' endpoint.
     - Add an extra controller with a few mappings point to the '/axxes/extra' endpoint.
+
+
+
+Exercise 4:
+
+Passing variables to the endpoint:
+
+    - Create a new Controller.
+    - Add a POST method accepting an optional String request parameter.
+    - Add a POST method accepting a required integer request parameter.
+    - Add a GET method accepting an integer path variable.
