@@ -2,10 +2,26 @@ package com.axxes.exercises;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class ExceptionController {
+
+    @ExceptionHandler(Exception.class)
+    public ModelAndView handleAll(final Exception e) {
+        final ModelAndView view = new ModelAndView("exceptionView");
+        view.addObject("message", "An exception occurred.");
+        return view;
+    }
+
+    @ExceptionHandler(IllegalArgumentException.class)
+    public ModelAndView handleSpecific(final Exception e) {
+        final ModelAndView view = new ModelAndView("exceptionView");
+        view.addObject("message", "An IllegalArgument occurred.");
+        return view;
+    }
 
     @GetMapping("/illegalException")
     public String illegalException(final Model model) {
