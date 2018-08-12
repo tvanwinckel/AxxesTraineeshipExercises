@@ -1,0 +1,11 @@
+Exercise 1:
+
+Whe want our controllers to be available behind a default mapping,
+for example: /AXXES/controller-one
+             /AXXES/controller-two
+
+This can be done both by Spring Boot properties or providing a servlet configuration bean.
+
+Tips:
+    - ConfigurableServletWebServerFactory
+    - server.servlet.path
